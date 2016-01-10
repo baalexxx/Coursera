@@ -5,7 +5,7 @@
 
 target 'PeerReview03' do
 
-pod 'CurrencyRequest'
+pod 'CurrencyRequest' , '~> 0.1'
 
 end
 

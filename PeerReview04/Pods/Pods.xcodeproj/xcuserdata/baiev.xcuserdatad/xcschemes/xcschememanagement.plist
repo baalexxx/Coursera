@@ -4,41 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CurrencyRequest-CurrencyRequest.xcscheme</key>
+		<key>DistanceGetter-DistanceGetter.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
-		<key>CurrencyRequest.xcscheme</key>
+		<key>DistanceGetter.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>0</integer>
 		</dict>
-		<key>Pods-PeerReview03.xcscheme</key>
+		<key>Pods-PeerReview04.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>28142112D27A55BA62D07C0217FFD4FB</key>
+		<key>581F154317A55003674154498521120B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8473E643B456DC0AF3817DBB6819FEEF</key>
+		<key>D1F794748F26424070D93B82CDCB2329</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F3CA3898FDC2F84A926FDEFECBC84CA8</key>
+		<key>E6EB3BCC59589B4FBC77D0575C38975B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

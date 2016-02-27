@@ -21,8 +21,14 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dJ8-ag-Jer">
                                 <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                 <items>
-                                    <barButtonItem title="Item" id="3i9-FC-zMD"/>
+                                    <barButtonItem systemItem="action" id="3i9-FC-zMD">
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="showShareAction:" destination="BYZ-38-t0r" id="6LW-ft-X9v"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
+                                <color key="barTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                             </toolbar>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZSd-KN-CdY">
                                 <rect key="frame" x="0.0" y="72" width="320" height="496"/>
@@ -43,6 +49,9 @@
                             <constraint firstItem="dJ8-ag-Jer" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="qTf-8d-tTh"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tweetTextView" destination="ZSd-KN-CdY" id="Cgw-sP-38Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

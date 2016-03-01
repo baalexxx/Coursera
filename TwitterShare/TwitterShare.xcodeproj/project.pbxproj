@@ -13,6 +13,7 @@
 		9B8E47111C73C5E00045DAA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8E470F1C73C5E00045DAA2 /* Main.storyboard */; };
 		9B8E47131C73C5E00045DAA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8E47121C73C5E00045DAA2 /* Assets.xcassets */; };
 		9B8E47161C73C5E00045DAA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B8E47141C73C5E00045DAA2 /* LaunchScreen.storyboard */; };
+		9BE4A5271C83435000AEE7A9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE4A5261C83435000AEE7A9 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9B8E47121C73C5E00045DAA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B8E47151C73C5E00045DAA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B8E47171C73C5E00045DAA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BE4A5261C83435000AEE7A9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BE4A5271C83435000AEE7A9 /* Social.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		9B8E46FA1C73C5E00045DAA2 = {
 			isa = PBXGroup;
 			children = (
+				9BE4A5261C83435000AEE7A9 /* Social.framework */,
 				9B8E47051C73C5E00045DAA2 /* TwitterShare */,
 				9B8E47041C73C5E00045DAA2 /* Products */,
 			);
@@ -300,6 +304,7 @@
 				9B8E471C1C73C5E00045DAA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
